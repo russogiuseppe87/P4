@@ -1,0 +1,181 @@
+@media screen and (max-width: 1300px){
+    main:not(.connection):not(.home) .page{
+        padding: 0.8cm;        
+    }
+    .connection .page{
+        padding: 1.5cm 2cm 1.5cm 2cm;
+    }
+    
+}
+
+@media screen and (max-width: 1130px){
+    #main-navigation:target{
+        width: 100%;
+    }
+    #main-navigation:target ~ .page-wrap{
+        width: 100%;
+    }
+    .navigation{
+        padding-top: 0;
+
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigation > div{
+        margin-left: 0; 
+    }
+    .navigation > div .divider{
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+}
+
+@media screen and (max-width: 850px){
+    main{
+        background-image: initial;
+        background-color: white;
+    }
+    main:not(.home):not(.error) .page-wrap{
+        display: initial;
+        position: relative;
+    }
+    main:not(.home):not(.error) .page-wrap > header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        
+        box-sizing: border-box;
+        padding: 0;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        background: url('../img/tobias-tullius-QTEZfr5xKF8-unsplash-resized.jpg') no-repeat;
+        background-size: cover ;
+        background-position: bottom;
+        background-color: rgba(0,0,0,0.85);
+        box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.2);
+
+        height: 80px;
+    }
+    main:not(.home):not(.error) .page-wrap{
+        padding-top: 80px;
+    }
+    .home{
+        background: url('../img/tobias-tullius-QTEZfr5xKF8-unsplash-small.jpg') no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+    h1{
+        font-size: 1.7em;
+    }
+    .close-navigation, 
+    .open-navigation{
+        top: 8px;
+        right: 8px;
+    }
+    main:not(.connection):not(.home) .page{
+        padding: 15px;
+    }
+    .page{
+        max-width: 100%;
+        width: 100%; 
+        box-sizing: border-box;
+        margin-bottom: 0;
+        box-shadow: initial;
+    }
+    .home .page{
+        padding: 20px;
+    }
+    .home h2{
+        font-size: 1.3em;
+    }
+    .connection .page-wrap{
+        display: initial;
+    }
+    .connection .page{
+        border-radius: 0;
+    }
+    .about > div:not(.portrait){
+        width: calc(100% - 180px);
+    }
+    .about p,
+    .about q,
+    .about a{
+        margin-right: 0;
+        max-width: initial;
+    }
+    .about q,
+    .about a{
+        margin-top: 20px;
+    }      
+}
+
+@media screen and (max-width: 600px){
+    main{
+        text-align: justify;
+    }
+    main:not(.home):not(.error) .page-wrap > header{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .home .page-wrap > header{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .portrait{
+        width: 140px; height: 140px;
+    }
+    .about > div:not(.portrait){
+        width: calc(100% - 140px);
+    }
+    .buttonContainer .ctaButton{
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .home .page-wrap > header{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .home h1{
+        font-size: 2.2em;
+    }
+    form .formSection,
+    .comment{
+        margin-left: 0;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .portrait{
+        margin-bottom: 20px;
+    }
+    .about > div:not(.portrait){
+        width: 100%;
+    }
+    .buttonContainer .adminButton{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    main:not(.home):not(.error) .page-wrap > header{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .home h1{
+        font-size: 2em;
+    }
+    .home h2{
+        font-size: 1.15em;
+    }
+}
