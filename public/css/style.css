@@ -15,7 +15,7 @@ h1, h2, h3, ul, p, input, textarea{
 }
 a {   
     text-decoration: none;
-    color: mediumblue;
+    color: rgb(0, 157, 205);
 } 
 a:hover {   
     text-decoration: underline;
@@ -89,6 +89,7 @@ main{
     padding: 1.5cm 2cm 1.5cm 2cm;
     background-color: white;
     box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
 }
 .page > header{
     margin-bottom: 50px;
@@ -123,7 +124,7 @@ h1{
     position: absolute;
 }
 .front {
-    color: mediumspringgreen;
+    color: rgb(100, 206, 255);
 }
 .outline {
     color: transparent;
@@ -430,21 +431,21 @@ input[type="submit"]:hover{
 }
 .ctaButton{
     color: white;
-    background: rgb(25,25,25);
-    border: 3px solid rgb(25,25,25);;
+    background: rgb(14, 45, 91);
     font-weight: bold;
     padding: 10px 20px 10px 20px;
     margin-right: 10px;
+    border-radius: 10px;
 }
 .ctaButton:hover{
     text-decoration: none;
     color: white;
-    background: darkgreen;
-    border: 3px solid mediumspringgreen;
+    background: rgb(29, 173, 250);
+    border-radius: 10px;
 }
 .basicButton{
     background-color: transparent;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     padding: 4px 8px 3px 8px;
     border: 3px solid black;

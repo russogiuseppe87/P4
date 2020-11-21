@@ -12,7 +12,7 @@
 
         <div class='page'>
             <header>
-                <a href="index.php">Retour à la page d'accueil</a>
+                <a href="index.php">ACCUEIL</a>
             </header>
             <h2>Sommaire :</h2>
             <?php 
