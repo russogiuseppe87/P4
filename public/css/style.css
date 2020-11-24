@@ -123,13 +123,13 @@ h1{
     position: absolute;
 }
 .front {
-    color: rgb(0, 161, 198);
+    color: rgb(255, 255, 255);
 }
 .outline {
     color: transparent;
     -webkit-text-stroke: 1.5px darkgreen;
     user-select: none;
-    text-shadow: 1.5px 1.5px 0px rgba(0,0,0,0.85);
+    text-shadow: 1.5px 1.5px 0px rgba(255, 255, 255, 0.85);
 }
 .back {
     opacity: 0;
@@ -259,7 +259,7 @@ img{
     width: 0px; height: 100vh;
 
     color: white;
-    background-color: rgba(0,0,0,0.85);
+    background-color: rgba(0, 0, 0, 0.433);
 
     overflow: hidden;
     padding-top: 100px;
