@@ -440,7 +440,7 @@ input[type="submit"]:hover{
 .ctaButton:hover{
     text-decoration: none;
     color: white;
-    background: rgb(29, 173, 250);
+    background: rgb(0, 161, 198);
     border-radius: 10px;
 }
 .basicButton{
