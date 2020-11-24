@@ -23,6 +23,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-color: rgb(0, 0, 0);
     }
     .navigation > div{
         margin-left: 0; 

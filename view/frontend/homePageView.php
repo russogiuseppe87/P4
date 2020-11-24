@@ -13,9 +13,9 @@
         <div class='page'>
             <section>
                 <div>
-                    <h2 class='introOutline'>Bienvenue sur le livre-blog de Jean Forteroche. Découvrez chaque semaine un nouvel épisode inédit.</h2>
-                    <h2 class='introFront'>Bienvenue sur le livre-blog de Jean Forteroche. Découvrez chaque semaine un nouvel épisode inédit.</h2>
-                    <h2 class='back'>Bienvenue sur le livre-blog de Jean Forteroche. Découvrez chaque semaine un nouvel épisode inédit.</h2>
+                    <h2 class='introOutline'>Bienvenue sur le livre-blog de Jean Forteroche<br>Découvrez chaque semaine un nouvel épisode inédit</h2>
+                    <h2 class='introFront'>Bienvenue sur le livre-blog de Jean Forteroche<br>Découvrez chaque semaine un nouvel épisode inédit</h2>
+                    <h2 class='back'>Bienvenue sur le livre-blog de Jean Forteroche<br>Découvrez chaque semaine un nouvel épisode inédit</h2>
                 <div>
                 <div class='buttonContainer'>
                     <a href="index.php?page=readFirst" class='ctaButton'>Commencer l'aventure</a>

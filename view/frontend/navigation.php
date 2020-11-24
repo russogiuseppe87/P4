@@ -3,7 +3,7 @@
     <div>
 
         <header>
-            <p><a href="index.php" class='menuTitle' ><i class="fas fa-angle-right"></i></i>Accueil</a></p>
+            <p><a href="index.php" class='menuTitle' ><i class="fas fa-angle-right"></i></i>ACCUEIL</a></p>
             <p><a href="index.php?page=readPostsList" class='menuTitle' ><i class="fas fa-angle-right"></i></i>Sommaire</a></p>
         </header>
         <ul>
