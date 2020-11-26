@@ -22,20 +22,7 @@
                     <a href="index.php?page=readLast" class='ctaButton'>Dernier épisode</a>
                 </div>
             </section> 
-            <!-- 
-            <div class='divider'></div>
-            <section>
-                <h2>À propos de l'auteur:</h2>
-                <div class='about'>
-                    <div class='portrait'><img src='public/img/cooperSquare.jpg' ></div>
-                    <div >
-                        <p>Né en 1975 dans le Nebraska, Jean Forteroche a commencé à publier en 2005 et s'est rapidement imposé auprès du public comme l'un des meilleurs auteurs de roman contemporain, grâce à son cycle des Aventures des derniers trappeurs.</p>
-                        <q>Le noyau central de l'esprit vivant d'un humain, c'est sa passion pour l'aventure. La joie de vivre vient de nos expériences nouvelles et donc il n'y a pas de plus grande joie qu'un horizon éternellement changeant, qu'un soleil chaque jour nouveau et différent.</q>
-                        <a href="https://fr.wikipedia.org/wiki/Jon_Krakauer">En savoir plus</a>
-                    </div>
-                </div>
-            </section>
-            -->
+            
         </div>
 
     </div>
