@@ -5,7 +5,7 @@ class Manager
 {
     protected function dbConnect()
     {
-        $db = new \PDO('mysql:host=localhost;dbname=blogjeanforteroche;charset=utf8', 'root', 'root', array(\PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION));
+        $db = new \PDO('mysql:host=db5001233689.hosting-data.io;dbname=dbs1055516;charset=utf8', 'dbu384171', 'pQ:6yKS88n(|4n', array(\PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION));
         return $db;
     }
 }

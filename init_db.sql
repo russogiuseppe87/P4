@@ -1,24 +1,7 @@
--- phpMyAdmin SQL Dump
--- version 4.9.0.1
--- https://www.phpmyadmin.net/
---
--- Host: localhost:8889
--- Generation Time: Nov 22, 2019 at 10:00 PM
--- Server version: 5.7.26
--- PHP Version: 7.3.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
---
--- Database: `blogjeanForteroche`
---
-CREATE DATABASE IF NOT EXISTS `blogjeanForteroche` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `blogjeanForteroche`;
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `comments`
 --
 
