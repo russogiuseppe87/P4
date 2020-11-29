@@ -25,7 +25,7 @@
                 </div>
                 <div class='formSection'>
                     <label for="pass">Mot de passe</label><br />
-                    <input type="password" id="pass" name="pass" placeholder="test">
+                    <input type="password" id="pass" name="pass" placeholder="Mon mot de passe">
                 </div>
                 <div class='formSection'>
                     <label for="rememberMe">Se souvenir de moi</label>
