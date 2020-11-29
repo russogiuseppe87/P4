@@ -33,7 +33,7 @@
                     <div class='content'><?= $post->extract() ?></div>
 
                     <footer>
-                        <a href="index.php?page=readPost&amp;post_id=<?= $post->id() ?>" >Voir l'épisode complet</a>
+                        <a href="index.php?page=readPost&amp;post_id=<?= $post->id() ?>" >Lire l'épisode complet</a>
                     </footer>
                 </div>
             <?php endforeach; ?>

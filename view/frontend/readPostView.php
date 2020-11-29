@@ -73,15 +73,7 @@
 							<?php 
 							// if comment not reported => report option is available
 							if($comment->reported() === 0){ 
-								/*
-								// if admin connected =>  edit/cancel options are available
-								if (isset($connectionParameters['admin']) AND $connectionParameters['admin'] === true){ 
-								?> 
-							    	<a href="index.php?page=updateCommentForm&amp;post_id=<?= $post->id() ?>&amp;comment_id=<?= $comment->id() ?>" title="Modifier" class='basicButton' ><i class="fas fa-pencil-alt"></i></a>
-							    	<a href="index.php?page=deleteComment&amp;post_id=<?= $post->id() ?>&amp;comment_id=<?= $comment->id() ?>" title="supprimer" class='basicButton' ><i class="fas fa-trash-alt"></i></a>  
-						    	<?php 
-								} 
-								*/
+					
 								?> 
 								<a href="index.php?page=reportComment&amp;post_id=<?= $post->id() ?>&amp;comment_id=<?= $comment->id() ?>" >Signaler</a>
 							<?php
