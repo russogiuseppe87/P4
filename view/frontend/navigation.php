@@ -3,13 +3,13 @@
     <div>
 
         <header>
-            <p><a href="index.php" class='menuTitle' ><i class="fas fa-angle-right"></i></i>ACCUEIL</a></p>
-            <p><a href="index.php?page=readPostsList" class='menuTitle' ><i class="fas fa-angle-right"></i></i>Sommaire</a></p>
+            <p><a href="index.php" class='menuTitle' ><i class="fas fa-angle-right"></i>ACCUEIL</a></p>
+            <p><a href="index.php?page=readPostsList" class='menuTitle' ><i class="fas fa-angle-right"></i>Sommaire</a></p>
         </header>
         <ul>
             <?php foreach ($postTitles as $id => $title){ ?>
 
-                <li><a href="index.php?page=readPost&amp;post_id=<?= $id ?>" class='menuTitle' ><i class="fas fa-angle-right"></i></i><?= $title ?></a></li>
+                <li><a href="index.php?page=readPost&amp;post_id=<?= $id ?>" class='menuTitle' ><i class="fas fa-angle-right"></i><?= $title ?></a></li>
 
             <?php
             }
